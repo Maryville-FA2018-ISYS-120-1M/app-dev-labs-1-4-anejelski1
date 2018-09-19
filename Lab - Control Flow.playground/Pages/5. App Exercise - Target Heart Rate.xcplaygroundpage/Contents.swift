@@ -10,6 +10,19 @@
 let targetLowerBound = 120
 let targetUpperBound = 150
 let currentHR = 147
-
-
+let IT = ((currentHR>=targetLowerBound)&&(currentHR<=targetUpperBound))
+let BT = (currentHR<targetLowerBound)
+let AT = (currentHR>targetUpperBound)
+if(IT)
+{
+    print("You're on the right track!")
+}
+else if(BT)
+{
+    print("You're doing great, but try to push it a bit!")
+}
+else if(AT)
+{
+    print("You're on fire! Slow it down just a bit.")
+}
 //: [Previous](@previous)  |  page 5 of 9  |  [Next: Exercise - Switch Statements](@next)
