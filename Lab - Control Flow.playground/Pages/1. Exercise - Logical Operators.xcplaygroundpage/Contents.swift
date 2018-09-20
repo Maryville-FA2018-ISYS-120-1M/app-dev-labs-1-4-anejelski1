@@ -17,7 +17,7 @@ print(9==9)
  2. `9 != 9`
  */
 print(false)
-print(9!=9)
+print(9!=9) // if you add a space the error will go away, print(9 != 9)
 
 /*: 
  3. `47 > 90`
